@@ -15,14 +15,14 @@ The **Intelligent Expense Tracker** is a Flask web application designed to help 
 
 ## Project Structure
 
-intelligent-expense-tracker/
+```intelligent-expense-tracker/
 │
-├── main.py                  # Main Flask application
-├── models.py                # Database models for SQLite
-├── mlmodel.py               # Machine learning model training script
-├── index.html               # Frontend form for user input
-├── expense_labels2.csv      # Dataset containing labeled expense data
-├── expense_model.pkl        # Pre-trained expense categorization model
-├── vectorizer.pkl           # Fitted CountVectorizer for text vectorization
+├── main.py # Main Flask application
+├── models.py # Database models for SQLite
+├── mlmodel.py # Machine learning model training script
+├── index.html # Frontend form for user input
+├── expense_labels2.csv # Dataset containing labeled expense data
+├── expense_model.pkl # Pre-trained expense categorization model
+├── vectorizer.pkl # Fitted CountVectorizer for text vectorization
 ├── total_amount_per_category.png # Example data visualization
-└── README.md                # Project documentation
+└── README.md # Project documentation
